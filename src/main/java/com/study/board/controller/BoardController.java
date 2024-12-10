@@ -17,6 +17,6 @@ public class BoardController { //localhost:8080/board/write
     System.out.println(board.getTitle());
 
 
-        return " ";
+        return "";
     }
 }
