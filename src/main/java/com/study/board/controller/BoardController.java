@@ -9,13 +9,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class BoardController { //localhost:8080/board/write
     @GetMapping("/board/write")
     public String boardWriteFore(){
-        return "boardwrite";
+        String s = "boardwrite";
+        return s;
     }
 @PostMapping("/board/writepro")
     public String BoardWritePro(Board board){
     System.out.println(board.getTitle());
 
+    String s = "";
+    return s;
 
-        return " ";
     }
 }
